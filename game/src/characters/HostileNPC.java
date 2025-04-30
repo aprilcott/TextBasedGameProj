@@ -17,4 +17,8 @@ public class HostileNPC {
     private Integer TakeDamage() {
         this.Health = this.Health - MC.getDamage;
     }
+    public HostileNPC(Integer Health, String Name, String Dialogue, Integer DamageMin, Integer DamageMax) {
+        
+    }
+    HostileNPC zombie = new HostileNPC(100, "Zombie", "Im gonna eat your rains", 7, 10);
 }
