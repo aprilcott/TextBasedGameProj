@@ -1,8 +1,20 @@
 package characters;
-
+import java.util.Random;
+import java.util.random.*;
 public class HostileNPC {
+    Random random = new Random();
+    private String Health;
     private String Name;
     private String Dialogue;
-    private Integer Damage;
-
+    private Integer DamageMin;
+    private Integer DamageMax;
+    private String Talk() {
+        return this.Dialogue;
+    }
+    private Integer CalculateDamage() {
+        return random.nextInt(this.DamageMin, this.DamageMax);
+    }
+    private Integer TakeDamage() {
+        this.Health = this.Health - MC.getDamage;
+    }
 }
