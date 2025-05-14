@@ -44,6 +44,7 @@ public class Item {
     public void setItemValue(Integer itemValue) {
         this.itemValue = itemValue;
     }
+<<<<<<< HEAD
     
 
 
@@ -56,5 +57,7 @@ System.out.println("Item Health: " + sword.getHealth());
 
 System.out.println("Item Name: " + potion.getName());
 System.out.println("Item Description: " + potion.getDescription()); intln("Item 
+=======
+>>>>>>> 3ba3d7ddc484a580c7f89548bac1b7ea80e9a78a
 }
 
