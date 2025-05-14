@@ -44,17 +44,5 @@ public class Item {
     public void setItemValue(Integer itemValue) {
         this.itemValue = itemValue;
     }
-    y shield", "Armor", 0);
-
-
-Item shield = new Item("Shield", "A sturd
-System.out.println("Item Name: " + sword.getName());
-System.out.prDescription: " + sword.getDescription());
-System.out.println("Item Type: " + sword.getType());
-System.out.println("Item Health: " + sword.getHealth());
-
-
-System.out.println("Item Name: " + potion.getName());
-System.out.println("Item Description: " + potion.getDescription()); intln("Item 
 }
 

@@ -12,11 +12,11 @@ public class Location {
         this.locationName = locationName;
         this.locationType = locationType;
         this.isPassable = isPassable;
-
+    }
 
     public void setLocationDescription(String locationDescription) {
         this.locationDescription = locationDescription;
-
+    }
     public String getLocationDescription() {
         return locationDescription;
     }
