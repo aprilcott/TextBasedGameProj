@@ -1,14 +1,16 @@
 package characters;
-
+import World.*;
+import java.util.ArrayList;
 public class Player {
-    private String damage;
-    private Integer Playerx, PlayerY;
-    private String PlayerName;
-    private String PlayerDialogue;
-    private Integer PlayerHealth;
-    private Integer PlayerDamageMin;
-    private String getDamage() {
-        return this.damage;
+    private Integer Damage = 100;
+    private Integer Playerx = 0, PlayerY = 0;
+    private ArrayList inventory = new ArrayList<Item>();
+    private Integer getDamage() {
+        return this.Damage;
+    }
+    private void addItem(Item item) {
+        this.inventory.add(item);
+    }
 }
 public String getHealth() {
     return this.Health;

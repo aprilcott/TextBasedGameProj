@@ -3,7 +3,7 @@ import java.util.Random;
 import java.util.random.*;
 public class HostileNPC {
     Random random = new Random();
-    private String Health;
+    private Integer Health;
     private String Name;
     private String Dialogue;
     private Integer DamageMin;
@@ -15,10 +15,17 @@ public class HostileNPC {
         return random.nextInt(this.DamageMin, this.DamageMax);
     }
     private Integer TakeDamage() {
-        this.Health = this.Health - MC.getDamage;
+        return(1);
+        //this.Health = this.Health - MC.getDamage;
     }
     public HostileNPC(Integer Health, String Name, String Dialogue, Integer DamageMin, Integer DamageMax) {
-        
+        this.Health = Health;
+        this.Name = Name;
+        this.Dialogue = Dialogue;
+        this.DamageMin = DamageMin;
+        this.DamageMax = DamageMax;
     }
-    HostileNPC zombie = new HostileNPC(100, "Zombie", "Im gonna eat your rains", 7, 10);
+    public Integer getHealth() {
+        return this.Health;
+    }
 }
