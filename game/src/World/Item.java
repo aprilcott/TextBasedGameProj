@@ -44,10 +44,10 @@ public class Item {
     public void setItemValue(Integer itemValue) {
         this.itemValue = itemValue;
     }
-    y shield", "Armor", 0);
+    
 
 
-Item shield = new Item("Shield", "A sturd
+Item shield = new Item("Shield", "A sturdy shield", "Armor", 0);
 System.out.println("Item Name: " + sword.getName());
 System.out.prDescription: " + sword.getDescription());
 System.out.println("Item Type: " + sword.getType());
